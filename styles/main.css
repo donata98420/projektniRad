@@ -1,0 +1,41 @@
+/* Light mode styles */
+.light-mode {
+    --text-color: #000; /* Default text color for light mode */
+    --background-color: #fff; /* Default background color for light mode */
+}
+
+.light-mode .container {
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+.light-mode .text.button {
+    background-color: #B509AE;
+    color: white;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    --text-color: #fff; /* Text color for dark mode */
+    --background-color: #000; /* Background color for dark mode */
+}
+
+.dark-mode .container {
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+.dark-mode .text.button {
+    background-color: #B509AE;
+    color: white;
+}
+
+img {
+    float: right;
+}
+
+.text button input-default{
+    background-color: #B509AE;
+    color: white;
+
+}

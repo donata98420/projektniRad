@@ -1,0 +1,136 @@
+/* Glassmorphism effect styles */
+.glasslayout {
+    display: flex;
+    justify-content: flex-end; /* Align both containers to the right */
+    align-items: center;
+    min-height: 100vh;
+    background: url('./media/img/prijava.svg') center/cover no-repeat fixed;
+    padding: 0 20px; /* Add padding to create space between content and edges of the page */
+}
+
+.wrapper {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form__title {
+    font-size: 28px;
+    font-family: 'Euclid Circular A Medium';
+    color: #333;
+    margin-top: 20px;
+}
+
+.form-container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%; /* Adjust the width as needed */
+    text-align: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.glass-input {
+    width: 90%;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 30px; /* Increased white space between input fields */
+    border: 1px solid #ccc;
+    backdrop-filter: blur(4px);
+    color: black; /* Updated placeholder text color */
+    font-size: 18px; /* Placeholder font size */
+}
+
+.glass-input::placeholder {
+    color: black; /* Updated placeholder text color */
+    font-size: 18px; /* Placeholder font size */
+}
+
+textarea {
+    resize: none;
+    display: block;
+    color: black;
+    width: 100%;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 30px; /* Increased white space between input fields */
+    backdrop-filter: blur(4px);
+}
+
+textarea::placeholder {
+    color: black; /* Updated placeholder text color */
+    font-size: 18px; /* Placeholder font size */
+    font-family: 'Euclid Circular A Medium';
+}
+
+.glass-button {
+    background-color: #B509AE;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Euclid Circular A Medium';
+    transition: background-color 0.3s ease;
+}
+
+.glass-button:hover {
+    background-color: #A2089E;
+}
+
+.form__buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between; /* Align buttons to the left and right */
+}
+
+.form__button--secondary {
+    background-color: transparent;
+    border: 2px solid #B509AE;
+    color: #B509AE;
+    transition: background-color 0.3s ease;
+    margin-left: 8px;
+}
+
+.form__button--secondary:hover {
+    background-color: transparent;
+    border-color: #A2089E;
+    color: #A2089E;
+}
+
+.input-default {
+    display: inline-block;
+    font-family: 'Euclid Circular A Medium';
+    color: black; 
+
+}
+
+/* Additional styles for the glassmorphism layout */
+.glassmorphism-wrapper {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    backdrop-filter: blur(10px);
+}
+
+
+.content {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%; /* Adjust the width as needed */
+    text-align: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ #gumb {
+        color: white; /* Set the text color to white */
+    }

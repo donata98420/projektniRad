@@ -1,0 +1,105 @@
+.glasslayout {
+    display: flex;
+    justify-content: center; /* Center-align the form */
+    align-items: center; /* Center-align vertically */
+    min-height: 100vh; /* Ensure the form takes the full viewport height */
+    background-color: #f0f0f0; /* Add a background color */
+}
+
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.wrapper {
+    background: rgba(255, 255, 255, 0.2); /* Glassmorphism background */
+    backdrop-filter: blur(10px); /* Glassmorphism blur effect */
+    padding: 20px; /* Add some padding for spacing */
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+.form__title {
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2); /* Glassmorphism border effect */
+    font-size: 24px;
+    font-family: 'Euclid Circular A Medium';
+    margin-bottom: 20px; /* Add some spacing below the title */
+}
+
+.input,
+.select {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1); /* Glassmorphism input background */
+    font-size: 18px;
+    font-family: 'Euclid Circular A Medium';
+    color: #000; /* Ink color for placeholders */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+}
+
+.input::placeholder,
+.select::placeholder {
+    color: #000; /* Placeholder text color */
+}
+
+.form__button {
+    background: #B509AE;
+    padding: 10px 15px;
+    color: #B509AE;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Euclid Circular A Medium';
+    transition: background 0.3s ease; /* Add a smooth transition effect */
+}
+
+#button:hover{
+    background: #8A0675;
+}
+
+.form__button:hover {
+    background: #8A0675; /* Darker color on hover */
+}
+
+.form__container {
+    padding: 20px;
+    font-family: 'Euclid Circular A Medium';
+}
+
+.form__button--secondary {
+    float: right;
+}
+
+/* Dark mode styles (optional) */
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode__table {
+    background-color: rgb(48, 48, 48);
+}
+
+.dark-mode__text {
+    color: white;
+}
+
+.dark-mode__wrapper {
+    background-color: #644263;
+}
+
+.list__item-default {
+    font-size: 18px;
+}
+
+/* Update the dropdown options font-family */
+.select option {
+    font-family: 'Euclid Circular A Medium', sans-serif;
+    font-size: 18px;
+    height: 50px;
+   
+}

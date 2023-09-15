@@ -1,0 +1,23 @@
+/* 
+    footer.css
+*/
+
+.footer {
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    z-index: 0;
+    width: 100%;
+    font-family: 'Times New Roman';
+}
+
+.footer__title {
+    color: rgb(23, 21, 21);
+    margin-left: 5vw;
+    font-size: 12px;
+    font-family: 'Times New Roman';
+}
+
+.dark-mode__footer {
+    background-color: rgb(84, 84, 84);
+  }

@@ -1,0 +1,129 @@
+/* nagrada.css */
+body {
+  font-family: 'Euclid Circular A Medium';
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.title-default {
+  font-size: 24px;
+  font-family: 'Euclid Circular A Medium';
+}
+
+.list__item-default {
+  font-size: 18px;
+  font-family: 'Euclid Circular A Medium';
+  text-align: left;
+}
+
+.text-default strong {
+  padding-right: 10px;
+  text-align: left;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-family: 'Euclid Circular A Medium'; 
+}
+
+.pink-button {
+  background-color: violet;
+  color: white; 
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 0px; 
+  font-family: 'Euclid Circular A Medium';
+  text-decoration: none; 
+  cursor: pointer; 
+}
+
+.layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  background: url('./media/img/prijava.svg') center/cover no-repeat fixed;
+}
+
+.container {
+  width: 100%; /* Adjust the width as desired */
+  margin: 80px auto 0; /* Increase the top margin to move it down */
+  margin-left: 70px; /* Add margin to move it slightly to the right */
+  padding-right: 25px;
+  padding-left: 25px;
+  border-spacing: 5px 1rem;
+  background-color: rgba(255, 255, 255, 0.2); /* Apply glassmorphism background */
+  backdrop-filter: blur(10px); /* Add a blur effect to the background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1); /* Add shadow */
+  text-align: left;
+  font-family: 'Euclid Circular A Medium';
+  display: flex; /* Center the content vertically and horizontally */
+  flex-direction: column; /* Stack content vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+}
+
+h2.title {
+  font-size: 28px;
+  font-family: 'Euclid Circular A Medium';
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.nagrada-details {
+  background-color: rgba(255, 255, 255, 0.8); /* Glassmorphism effect with opacity */
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px; /* Add margin to separate it from the title */
+  width: 100%; /* Make it full width */
+  text-align: left; /* Center text within the details */
+}
+
+p.nagrada-detail {
+  font-size: 18px;
+  font-family: 'Euclid Circular A Medium';
+  margin-bottom: 10px;
+  text-align: left; /* Center text within the details */
+}
+
+.detail-label {
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+  color: #0078d4;
+  font-family: 'Euclid Circular A Medium';
+}
+
+.pink-button {
+  background-color: #B509AE;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0px;
+  font-family: 'Euclid Circular A Medium';
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.image-right {
+  width: 50%;
+  margin: 20px auto 0; /* Increase the top margin to move it down */
+  margin-top: -40px; /* Keep the negative margin for further adjustment */
+  float: right;
+}
+
+#gumb {
+    
+    color: white;
+}
+
+#nagrada {
+    
+    color: #b509ae;
+}

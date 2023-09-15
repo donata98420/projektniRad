@@ -1,0 +1,82 @@
+/* Reset default margin and padding to improve consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply the font-family to the entire page */
+body {
+    font-family: 'Euclid Circular A Medium';
+    background-color: #f0f0f0; /* Set a light background color for the page */
+}
+
+.layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('./media/img/prijava.svg') center/cover no-repeat fixed;
+}
+
+.container {
+    width: 130%; /* Adjusted width for the container */
+    padding: 40px 20px; /* Adjusted padding for better spacing */
+    background-color: #ffffff; /* Set a white background for the container */
+    border-radius: 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    float: left; /* Float the container to the left */
+    font-family: 'Euclid Circular A Medium';
+}
+
+div.layout.image {
+    width: 130%; /* Adjusted width for the image */
+    float: right; /* Float the image to the right */
+}
+
+.title {
+    font-size: 28px;
+    font-family: 'Euclid Circular A Medium';
+    color: #333; /* Text color for better readability */
+    margin-bottom: 20px; /* Add margin below the title for spacing */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Euclid Circular A Medium';
+    padding: 10px;
+    margin-bottom: 20px; /* Increase spacing between input fields */
+    border: 1px solid #ccc; /* Add a subtle border to input fields */
+    border-radius: 0px;
+}
+
+input[type="submit"] {
+    background-color: #B509AE;
+    padding: 10px 38px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Euclid Circular A Medium';
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #A2089E; /* Adjust the hover color as desired */
+    font-family: 'Euclid Circular A Medium';
+}
+
+p {
+    color: #333; /* Text color for better readability */
+}
+
+h2 {text-align: left;
+}
+
+.navigation__image {
+
+    width: 30%;
+}
